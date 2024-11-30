@@ -1,0 +1,19 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter Celsius"
+        android:id="@+id/inputCelsius" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Convert"
+        android:id="@+id/convertButton" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Fahrenheit:"
+        android:id="@+id/resultText" /></LinearLayout>
